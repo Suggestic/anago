@@ -4,8 +4,7 @@ Model definition.
 import json
 
 import keras.backend as K
-from keras.layers import Dense, LSTM, Bidirectional, Embedding, Input, Dropout, Lambda, Activation, Reshape
-from keras.layers.merge import Concatenate
+from keras.layers import Dense, LSTM, Bidirectional, Embedding, Input, Dropout, Lambda, Activation, Reshape, Concatenate
 from keras.models import Model
 
 from anago.layers import CRF
